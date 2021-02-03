@@ -19,7 +19,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     var webView: WKWebView!
 
-// SECTION 3 - The OVERRIDE Section: In Swift 5, overrides are used when "you want to write your own method to replace an existing one in a parent class. It's used commonly when you're working with UIViewControllers, because view controllers already come with lots of methods like viewDidLoad() and viewWillAppear(). When you want to override these default methods, you need to specify this with the override keyword." This ensure that your code stays safe.
+// SECTION 3 - The OVERRIDE Section: In Swift 5, overrides are used when "you want to write your own method to replace an existing one in a parent class. It's used commonly when you're working with UIViewControllers, because view controllers already come with lots of methods like viewDidLoad() and viewWillAppear(). When you want to override these default methods, you need to specify this with the override keyword." This will ensure that your code stays safe.
     
     override func loadView() {
         webView = WKWebView()
